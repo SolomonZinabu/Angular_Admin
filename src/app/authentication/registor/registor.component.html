@@ -1,0 +1,37 @@
+<div class="float-container">
+
+    <div class = "sidebyside">
+        <div class = "registorasadmin">
+           <h1>Registor as an Admin</h1>
+        </div>
+      
+    </div>
+    <div class = "sidebyside">
+        <div class = "login">
+            <img class="img" src="/assets/imgs/himospherlogowithname.jpg" alt="image">
+            <br><br><br>
+            <form #registorForm = "ngForm" (ngSubmit) = "RegistorUser(registorForm);">
+                <div class="form-group w-25">            
+                  <input type="name" class="form-control" id="" aria-describedby="namehelp" placeholder="Full Name">
+                <br>
+                </div>
+                <div class="form-group w-25">                 
+                  <input type="email" class="form-control" id="" placeholder="Email Address">
+                </div>
+               <br>
+               <div class="form-group w-25">                 
+                <input type="password" class="form-control" id="" placeholder="Password">
+              </div>
+             <br>
+             <div class="form-group w-25">
+                 
+                <input type="password" class="form-control" id="" placeholder="Confirm Password">
+              </div>
+             <br>
+                <button type="submit" class="btn btn-primary">RESISTOR</button>
+              </form>
+        </div>
+      
+    </div>
+    
+  </div>

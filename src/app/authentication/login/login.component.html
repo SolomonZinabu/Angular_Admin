@@ -1,0 +1,31 @@
+<div class="float-container">
+
+    <div class = "sidebyside">
+        <div class = "loginasadmin">
+           <h1>Login as an Admin</h1>
+        </div>
+      
+    </div>
+    <div class = "sidebyside">
+        <div class = "login">
+            <img class="img" src="/assets/imgs/himospherlogowithname.jpg" alt="image">
+            <br><br><br>
+            <form #loginForm = "ngForm" (ngSubmit)= "LoginUser(loginForm);">
+                <div class="form-group w-25">            
+                  <input type="name" class="form-control" id="" aria-describedby="name" placeholder="User name" name = "userName" ngModel>
+                <br>
+                </div>
+                <div class="form-group w-25">
+                 
+                  <input type="password" class="form-control" id="" placeholder="Password" name = "password" ngModel>
+                </div>
+               <br>
+                <button type="submit" class="btn btn-primary">Login</button>
+              </form>
+        </div>
+      
+    </div>
+    
+  </div>
+
+
